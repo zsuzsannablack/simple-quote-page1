@@ -1,0 +1,29 @@
+* { /* CSS reset */
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+body{
+  background: no-repeat center center fixed;
+  background-image: url('assets/freedom.jpg');
+  background-size: cover;
+}
+.quote-block{
+  margin: 6% 10% 3%;
+  padding: 1%;
+}
+.quote{
+  color: rgba(75, 75, 75, .8);
+  font-family: 'Quicksand', sans-serif;
+  font-size: 2.3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+.cite{
+  padding: 3%;
+  color: rgba(50, 50, 50, .8);
+  font-family: "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  text-align: center;
+}
